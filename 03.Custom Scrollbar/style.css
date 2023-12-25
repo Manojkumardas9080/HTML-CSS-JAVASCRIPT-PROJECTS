@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(#8BC6EC, #9599E2);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    width: 500px;
+    line-height: 28px;
+}
+.card h2{
+    text-align: center;
+    
+}
+::-webkit-scrollbar {
+    background-color:transparent;
+    width: 14px;
+  
+
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(#FBAB7E, #FC00FF);
+    border-radius: 10px;
+    width: 10px;
+    height: 2px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#FF3CAC,#784BA0,#2B86C5);
+  }
