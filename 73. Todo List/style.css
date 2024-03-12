@@ -63,7 +63,7 @@ input {
   transform: translateX(100px);
   visibility: visible;
   background-color: rgb(34, 187, 51);
-  color: white;
+  color: rgb(46, 110, 230);
 }
 
 .error {
