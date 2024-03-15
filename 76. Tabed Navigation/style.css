@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: sans-serif;
+  background-color: blueviolet;
+}
+.container{
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.tadded-container{
+  position: relative;
+}
+.tadded-container .menu_Links{
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.menu_Links ul{
+  list-style: none;
+}
+.menu_Links ul li{
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+
+
+}
+@media (max-width: 567px){
+  .menu_Links ul li{
+    display: block;
+    width: 100%;
+    margin: 10px;
+  }
+}
