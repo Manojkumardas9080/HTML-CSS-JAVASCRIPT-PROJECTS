@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: rgb(10, 10, 10);
   color: #fff;
   padding: 30px 20px;
 }
