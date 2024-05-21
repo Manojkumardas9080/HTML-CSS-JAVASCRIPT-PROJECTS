@@ -42,7 +42,7 @@ body {
 .btn {
   position: absolute;
   bottom: -80px;
-  background: crimson;
+  background: rgb(214, 18, 57);
   color: #fff;
   border: none;
   padding: 10px 20px;
