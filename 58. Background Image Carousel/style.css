@@ -43,7 +43,7 @@ body {
 .btn {
   background-color: var(--btn-bg-color);
   border: none;
-  color: rgb(218, 18, 58);
+  color: rgb(216, 17, 57);
   font-size: 3rem;
   cursor: pointer;
 }
