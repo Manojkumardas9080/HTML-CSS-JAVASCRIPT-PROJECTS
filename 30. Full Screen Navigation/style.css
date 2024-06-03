@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
-  background-color: #5c6fda;
+  background-color: #586ad4;
   clip-path: circle(20px at calc(100vw - 5vw) 31px);
   transition: clip-path 0.5s;
 }
